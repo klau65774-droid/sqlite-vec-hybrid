@@ -1,0 +1,16 @@
+sqlite-vec-hybrid
+Copyright (c) 2026 sqlite-vec-hybrid contributors
+
+This product includes software derived from and compared against:
+  asg017/sqlite-vec (https://github.com/asg017/sqlite-vec)
+  Copyright (c) 2024-2026 Alex Garcia
+  Upstream commit: 04d28bd21773981e2d266bbf6aa4efbd011eb4f6 (v0.1.10-alpha.4)
+  Dual-licensed under the Apache License, Version 2.0 and the MIT License
+  (see upstream/sqlite-vec/LICENSE-APACHE and upstream/sqlite-vec/LICENSE-MIT).
+
+This distribution bundles SQLite 3.45.3 amalgamation sources (third_party/sqlite3/),
+which are dedicated to the Public Domain (https://www.sqlite.org/copyright.html).
+
+External blind benchmark datasets (kept strictly outside repository; referenced for offline CPU evaluation):
+  - BEIR SciFact & NFCorpus (Apache-2.0 / CC BY-SA 4.0): https://github.com/beir-cellar/beir
+  - AllenAI / BEIR Scifact: https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/
